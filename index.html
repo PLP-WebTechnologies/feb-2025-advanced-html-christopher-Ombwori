@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lan='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>assignment</title>
+    </head>
+    <body>
+        <p>   <img width="900" height="200" src="https://img.freepik.com/free-vector/creative-welcome-team-banner-your-recruitment-process_1017-50446.jpg" alt="image of requirements" ></p>
+
+        <h3>This is the list of requirements</h3>
+        <ol>
+            <li>Your Name </li>
+            <li>Id number</li>
+            <li>admission date</li>
+            <li>Place of birth</li>
+            <li>Date of birth</li>
+        </ol>
+
+       
+   <em>Example of table you will once fill</em> <br><br>
+    <legend>sample table</legend>
+         <table cellspacing="20"border="2">
+            <tr>
+                <th>Name</th>
+                <th>Adress</th>
+                <th>Mobile NO.</th>
+                <th>Email Adress</th>
+            </tr>
+            <tr>
+                <td>Chris</td>
+                <td>Nairobi, Kenya</td>
+                <td>2472048767664</td>
+                <td>info@einstein.co.ke</th>
+            </tr>
+         </table>
+
+         <h3>This is the final appeal</h3>
+         <em>If you wish to be part of the crew please fill this form below</em>
+
+         <form action="post">
+            <fieldset> <!-- the fieldset encloses all the content in the form-->
+                <legend>Registration form</legend> <!--Now this is the heading of form-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="example John Doe"><br><br>
+
+              <label for="email">Email:</label> 
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required> <br><br>
+
+              <label for="Gender">Gender</label>
+              <input type="radio" id="male" name="gender">Male 
+              <input type="radio" id="female"name="gender">Female <br><br> <!--here the name for the 2 options must beherwise you will be able to click both at a g and you dont want that-->
+              
+
+              <label for="Age">AGE</label>
+              <select name="age-group" id="age">
+                <option value="default" disabled selected>Select age </option>
+                <option value="age-group1">13-18</option>
+                <option value="age-group2">18-21</option>
+                <option value="age-group3">22-34</option>
+                <option value="age-group4">35+</option>
+              </select><br><br>
+              <label for="skills"><em>Please check your skill set(as many as you my)</em></label><br>
+              <input type="checkbox" name="skillset" name="skills">computer leteracy <br>
+              <input type="checkbox" name="skillset" name="skills">Google workspace <br>
+              <input type="checkbox" name="skillset" name="skills">Data entry <em>(excel/sheets/python/powerBi)</em> <br>
+              <input type="checkbox" name="skillset" name="skills">Graphic Design<br>
+              <input type="checkbox" name="skillset" name="skills">Programming<br><br>
+
+             <input type="submit" name="" id="">
+
+            </fieldset>
+         </form>
+        
+        
+    </body>
+</html>
